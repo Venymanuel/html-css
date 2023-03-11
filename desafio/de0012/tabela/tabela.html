@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela v1.0</title>
+    <style>
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+            
+        }
+        th, td{
+            width: 120px;
+            border: 1px solid black;
+        }
+        thead #cabecalho{
+            height: 40px;
+
+        }
+    </style>
+</head>
+<body>
+    <form method="get" autocomplete="off">
+        <h1>Cadastrar</h1>
+        <p>
+            <label for="inome">nome</label>
+            <input type="text" name="nome" id="inome">
+        </p>
+        <p>
+            <label for="iturma">Turma</label>
+            <input type="text" name="nome" id="iturma">
+        </p>
+        <p>
+            <label for="iperiodo">Periodo</label>
+            <input type="text" name="nome" id="iperiodo">
+        </p>
+        <p>
+            <label for="iclass">Classe</label>
+            <input type="text" name="nome" id="iclass">
+        </p>
+
+        <input type="submit" value="cadastrar" id="enviar">
+        <input type="reset" value="limpar" id="limpar">
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">Cadastrados </th>
+            </tr>
+            <tr id="cabecalho">
+                <th>Nome</th>
+                <th>Turma</th>
+                <th>periodo</th>
+                <th>classe</th>
+            </tr>
+        </thead>
+        <tbody  class="auto-cadastrar">
+         
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+    <input type="button" name="mais" id="mais" value="mais">
+    <script src="tabelav1.js"></script>
+</body>
+</html>

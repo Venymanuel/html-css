@@ -1,0 +1,1 @@
+Vai ficar tudo bem um dia voce vai conseguir fazer tudo isso

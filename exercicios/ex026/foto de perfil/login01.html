@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>make a login</title>
+    <link rel="stylesheet" href="login01.css">
+</head>
+<body>
+    <main>
+        <section class="login">
+            <form action="login.php" class="firt-login">
+                <h2>free sms</h2>
+                <fieldset>
+                   
+                        
+                    <div class="make-accon">
+                        <input type="email" name="email" id="iemail" placeholder="Mobile number or email" autocomplete="email" class="input">
+                    </div>
+                    <div>
+                        <input type="password" name="password" id="ipassword" placeholder="password" autocomplete="new-password">
+                    </div>
+
+                    <div class="make-accon">
+                        <input type="submit" name="send" id="isend" value="Log in">
+                        <button id="new">create new account</button>
+                    </div>
+                  
+                </fieldset>
+            </form>
+        </section>
+        <section class="logout">
+            <h2>creat account</h2>
+            <form action="login.php" class="secound-login">
+                <fieldset>
+                    <div class="new-account">
+                        <label for="iname">Your Name</label>
+                        <input type="text" name="name" id="iname" required class="input">
+                    </div>
+                    <div class="new-account">
+                        <label for="itel">Your number`s phone or email</label>
+                        <input type="t7" name="tel" id="itel" required>
+                    </div>
+                    <div class="new-account">
+                        <label for="ipassword">password</label>
+                        <input type="password" name="password" id="ipassword" required min="8" max="16">
+                    </div>
+
+                    <div class="new-account orient">
+                        <p>Enter your sex</p>
+                        <div class="orient-sex">
+                            <input type="radio" name="sexo" id="iM" required> <label for="iM">Male
+                            </label>
+                            <input type="radio" name="sexo" id="iF" required>  <label for="iF">Female
+                            </label>                   
+                        </div>
+                    </div>
+                    <div class="new-account button-log-in" >
+                        <input type="submit" value="create" id="button-a-creat">
+                        <button id="button-have"> I just have a account</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <script src="login.js"></script>
+</body>
+</html>

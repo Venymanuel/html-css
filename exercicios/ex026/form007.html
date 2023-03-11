@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="ist">Estado</label>
+            <select name="ist" id="ist">
+                <optgroup label="regiao sul deste">
+                    <option value="sp">sao paulo</option>
+                    <option value="mj">minas jerais</option>
+                    <option value="rio"> rio de janeiro</option>
+                </optgroup>
+
+                <optgroup label="regiao nordeste">
+                    <option value="rl">rio grande do norte</option>
+                    <option value="pe">perna mpuco</option>
+                    <option value="mr">marao</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>

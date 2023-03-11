@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha tabela v0.1</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+       .p1{
+        font-size: 2em;
+        
+        text-transform: uppercase;
+       }
+    </style>
+</head>
+<body>
+    <main>
+        <!-- <section>
+            <label for="n1_cadastramento">Quantas pessoas voce quer <q>Cadastrar</q> ?</label>
+            <input type="number" id="n1_cadastramento" autofocus>
+        </section> -->
+        <section class="cadastras">
+            <article class="tela-principal">
+
+              
+                    <h1>Cadastrar Membros</h1>
+                    <div class="tela" id="tela1">
+                        <label for="Name">Name</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="tela" id="tela2">
+                        <label for="Idade"> Idade</label>
+                        <input type="number" min="0" max="130" id="idade">
+                    </div>
+                    <div class="tela" id="tela3">
+                        <label for="Ano">Ano</label>
+                        <input type="number"  id="ano" min="1000" max="4000">
+                    </div>
+                    <div class="tela" id="tela4">
+                        <label for="Mes">Mes</label>
+                        <input type="text"  id="mes">
+                    </div>
+                    <div class="tela" id="tlbtn">
+                        <button id="btn" type="submit">Adicionar</button>
+                        <button type="reset" id="btnm">Pessoas cadastras</button>
+                    </div>
+            
+            </article>
+        </section>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4" class="p1">Cadastro</th>
+                </tr>
+                <tr class="tela_dados">
+                    <th>Name</th>
+                    <th>Idade</th>
+                    <th>Ano</th>
+                    <th>Mes</th>
+                </tr>
+            </thead>
+            <tbody id="display_1">
+                <tr class="dados">
+
+                    <td class="dados" id="d1"></td>
+                    <td class="dados" id="d2"></td>
+                    <td class="dados" id="d3"></td>
+                    <td class="dados" id="d4"></td>
+                </tr>
+                    <td class="dados" id="d9">Gaby</td>
+                    <td class="dados" id="d10">12</td>
+                    <td class="dados" id="d11">2011</td>
+                    <td class="dados" id="d12">janero</td>
+                </tr>
+                <tr>
+                    
+                    <td class="dados" id="d13">Abdias</td>
+                    <td class="dados" id="d14">4</td>
+                    <td class="dados" id="d15">2016</td>
+                    <td class="dados" id="d16">Dezembro</td>
+                </tr>
+                <tr>
+                    
+                    <td class="dados" id="d17">Pedro</td>
+                    <td class="dados" id="d18">8</td>
+                    <td class="dados" id="d19">2013</td>
+                    <td class="dados" id="d20">Setembro</td>
+                </tr>
+                <td class="dados" id="d9">Ana</td>
+                <td class="dados" id="d10">14</td>
+                <td class="dados" id="d11">2008</td>
+                <td class="dados" id="d12">Marco</td>
+            </tr>
+            <tr>
+                
+                <td class="dados" id="d13">Ernesto</td>
+                <td class="dados" id="d14">8</td>
+                <td class="dados" id="d15">2014</td>
+                <td class="dados" id="d16">Dezembro</td>
+            </tr>
+            <tr>
+                
+                <td class="dados" id="d17">Orlando</td>
+                <td class="dados" id="d18">9</td>
+                <td class="dados" id="d19">2004</td>
+                <td class="dados" id="d20">maio</td>
+            </tr>
+                <td class="dados" id="d9">Maria</td>
+                <td class="dados" id="d10">12</td>
+                <td class="dados" id="d11">2011</td>
+                <td class="dados" id="d12">janero</td>
+            </tr>
+        <tr>
+            
+            <td class="dados" id="d13">Valdemir</td>
+            <td class="dados" id="d14">5</td>
+            <td class="dados" id="d15">2017</td>
+            <td class="dados" id="d16">Dezembro</td>
+        </tr>
+        <tr>
+            
+            <td class="dados" id="d17">Elma</td>
+            <td class="dados" id="d18">8</td>
+            <td class="dados" id="d19">2013</td>
+            <td class="dados" id="d20">Setembro</td>
+        </tr>
+            <td class="dados" id="d9">Jack</td>
+            <td class="dados" id="d10">20</td>
+            <td class="dados" id="d11">2000</td>
+            <td class="dados" id="d12">Maio</td>
+        </tr>
+        <tr>
+        
+            <td class="dados" id="d13">Antonio</td>
+            <td class="dados" id="d14">18</td>
+            <td class="dados" id="d15">2004</td>
+            <td class="dados" id="d16">julho</td>
+        </tr>
+        <tr>
+        
+            <td class="dados" id="d17">Armando</td>
+            <td class="dados" id="d18">38</td>
+            <td class="dados" id="d19">1998</td>
+            <td class="dados" id="d20">julho</td>
+        </tr>
+    
+            </tbody>
+            <tfoot >
+                <tr>
+                    <th colspan="3">
+                        Total de Pessoas cadastadas
+                    </th>
+                    <td id="d12" >12</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <script src="javascript.js"></script>
+</body>
+</html>
