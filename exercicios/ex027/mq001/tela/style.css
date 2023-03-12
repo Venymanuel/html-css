@@ -1,0 +1,64 @@
+@charset 'UTF-8';
+
+/* midias para telas  */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header{
+    box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.39);
+    background-color: rgba(128, 128, 128, 0.325);
+    text-align: center;
+    padding: 10px 0px;
+}
+header h1{
+    font-variant: small-caps;
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px rgba(43, 41, 41, 0.79);
+    margin-bottom: 4px;
+}
+header menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+header menu ul li{
+    margin-left: 20px;
+    list-style: none;
+    padding-top: 10px;
+    font-variant: small-caps;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(184, 179, 179, 0.729);
+    padding: 6px;
+    border-radius: 4px;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.236);
+    transition: .8s;
+
+}
+header menu ul li:hover {
+    transition: .8s;
+    text-decoration: underline;
+    background-color: rgb(101, 99, 99);
+    padding:8px 16px;
+}
+main{
+    width: 600px;
+    display: block;
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.248);
+    color: whitesmoke;
+    text-shadow: 0px 0px 20px black;
+    padding: 10px;
+    line-height: 1.5em;
+   text-align: justify;
+
+}
