@@ -1,0 +1,162 @@
+@charset 'UTF-8';
+
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    
+    header{
+        height: 40px;
+       
+
+        
+    }
+    header .primiro-filho #menu{
+        display: block;
+        margin-right: 28px;
+        height: 34px;
+        width: 36px;
+        margin-bottom: 16px;
+    }
+    .segundo-filho{
+        display: none;
+    }
+    header .btn-auxilio{
+        display: none;
+    }
+ 
+    main .img{
+        width: 90%;
+        height: 180px;
+        display: block;
+        margin: auto;
+    }
+    main .img img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    main .flex{
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        padding: 16px;
+        margin-left: 20px;
+    }
+    main .flex h3{
+        font-size: 1em;
+    }
+    main .btn-auxilio{
+        color: #b816d5;;
+        font-size: 12px;
+        padding: 4px;
+        border: 1px solid #b816d5;
+        margin-right: 6px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+    main .cadastro{
+      
+        display: none;
+       
+     
+     
+     }
+   main .about .row{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+   }
+ 
+   main .about .row .image img{
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    margin-left: 30px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    
+   }
+   main .about .row .content{
+    margin-top: -6px;
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-left: 16px;
+   
+   
+   }
+   .about .row .content h3{
+    font-size: 1em;
+    margin-left: 12px;
+    
+   }
+   .about .row .content p{
+    font-size: 1em;
+    text-align: justify;
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    line-height: 1.6em;
+   }
+   .reservar{
+    margin-bottom: 20px;
+    height: 460px;
+    width: 90%;
+
+   }
+   .reservar .flex{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+   }
+   .reservar .flex .box{
+    width: 100%;
+   
+    
+    
+   }
+   .reservar .flex select{
+    width: 100%;
+   }
+   .reservar .flex input{
+    width: 100px;
+    height: 28px;
+  
+   
+   }
+   .reservar form .btn{
+    margin-top: -1px;
+   }
+   .galeria{
+    margin-top: 60px;
+   
+   }
+   .galeria h3{
+    width: 90%;
+   }
+   .galeria img{
+    width: 90%;
+   }
+   footer{
+    width: 90%;
+    background-color: blueviolet;
+   }
+   footer .box-container{
+    width: 90%;
+    display: block;
+    margin: auto;
+    font-size: 14px;
+    text-align: center;
+   }
+   footer .box-container .none{
+    display: none;
+
+   }
+}

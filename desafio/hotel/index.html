@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>hotel.com</title>
+      
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+      <link rel="stylesheet" href="estilos/style.css" media="all">
+      <link rel="stylesheet" href="mibile-firts.css">
+   </head>
+   <body>
+   
+      <header id="home">
+         <div class="primiro-filho">
+            
+            <a href="#home" class="logo">Hotels</a>
+         
+            <a href="#availability" class="btn-auxilio">avalhacoes</a>
+            <img src="icons/menu_FILL0_wght400_GRAD0_opsz48.png" alt="menu" id="menu">
+         </div>
+      
+         <nav class="segundo-filho">
+            <a href="#home">home</a>
+            <a href="#about">sobre</a>
+            <a href="#rezerva">rezerva</a>
+            <a href="#galeria">galeria</a>
+            <a href="#contactos">contactos</a>
+            
+         </nav>
+         
+      </header>
+
+
+
+
+
+      <main>
+         <section class="home" id="">
+            
+                  <div class="img-pprincipa">
+                     <div class="img">
+                        <img src="images/home-img-1.jpg" alt="">
+                     </div>
+                  </div>
+                  <div class="flex">
+                     <h3>quartos luxozos</h3>
+                     <a href="#availability" class="btn-auxilio">ver as avalhacoes</a>
+                  </div>
+                  
+                  <div class="img-pprincipa">
+                     <div class="img">
+                        <img src="images/home-img-2.jpg" alt="">
+                     </div>
+                     <div class="flex">
+                        <h3>cumidas e bebidas</h3>
+                        <a href="#reservation" class="btn-auxilio">fazer uma rezerva</a>
+                     </div>
+                  </div>
+
+                     
+                  <div class="img-pprincipa">
+                     <div class="img">
+                        <img src="images/home-img-3.jpg" alt="">
+                     </div>
+                     <div class="flex">
+                        <h3>lugares de lazer</h3>
+                        <a href="#reservation" class="btn-auxilio">fazer uma rezerva</a>
+                     </div>
+                  </div>
+         
+            </div>
+         </section>
+         <section class="cadastro" id="cadastro">
+            <form action="" method="post">
+               <div class="flex">
+                  <div class="box">
+                     <p>entrada<span>*</span></p>
+                     <input type="date" name="check_in" class="input" required>
+                  </div>
+                  <div class="box">
+                     <p>saida <span>*</span></p>
+                     <input type="date" name="check_out" class="input" required>
+                  </div>
+                  <div class="box">
+                     <p>adulto <span>*</span></p>
+                     <select name="adults" class="input" required>
+                        <option value="1">1 adulto</option>
+                        <option value="2">2 adultos</option>
+                        <option value="3">3 adultos</option>
+                        <option value="4">4 adultos</option>
+                        <option value="5">5 adultos</option>
+                        <option value="6">6 adultos</option>
+                     </select>
+                  </div>
+                  <div class="box">
+                     <p>criancas <span>*</span></p>
+                     <select name="childs" class="input" required>
+                        <option value="-">0 crianca</option>
+                        <option value="1">1 crianca</option>
+                        <option value="2">2 criancas</option>
+                        <option value="3">3 criancas</option>
+                        <option value="4">4 criancas</option>
+                        <option value="5">5 criancas</option>
+                        <option value="6">6 criancas</option>
+                     </select>
+                  </div>
+                  <div class="box">
+                     <p>quartos <span>*</span></p>
+                     <select name="rooms" class="input" required>
+                        <option value="1">1 quarto</option>
+                        <option value="2">2 quartos</option>
+                        <option value="3">3 quartos</option>
+                        <option value="4">4 quartos</option>
+                        <option value="5">5 quartos</option>
+                        <option value="6">6 quartos</option>
+                     </select>
+                  </div>
+               </div>
+               <input type="submit" value="cadastrar" name="cadastro" class="btn">
+            </form>
+         </section>
+         <section class="about" id="about">
+            <div class="row">
+               <div class="image">
+                  <img src="images/about-img-1.jpg" alt="">
+               </div>
+               <div class="content">
+                  <h3>Atendimentos de alta qualidade</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi laborum maxime eius aliquid temporibus unde?</p>
+                  <a href="#reservation" class="btn-auxilio">fazer uma rezerva</a>
+               </div>
+            </div>
+            <div class="row revers">
+
+               <div class="content content-other">
+                  <h3>Os melhores pratos</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi laborum maxime eius aliquid temporibus unde?</p>
+                  <a href="#contact" class="btn-auxilio">contacta nos</a>
+               </div>
+               <div class="image">
+                  <img src="images/about-img-2.jpg" alt="">
+               </div>
+              
+            </div>
+            <div class="row">
+               <div class="image">
+                  <img src="images/about-img-3.jpg" alt="">
+               </div>
+               <div class="content">
+                  <h3>piscinas maravilhosas</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi laborum maxime eius aliquid temporibus unde?</p>
+                  <a href="#cadastro" class="btn-auxilio">ver as avalhacoes</a>
+               </div>
+            </div>
+         </section>
+     
+         <section class="reservar " id="rezerva">
+            <form action="" method="post">
+               <h3>fazer uma rezerva</h3>
+               <div class="flex">
+                  <div class="box">
+                     <p>entrada <span>*</span></p>
+                     <input type="date" name="check_in" class="input" required>
+                  </div>
+                  <div class="box">
+                     <p>saida <span>*</span></p>
+                     <input type="date" name="check_out" class="input" required>
+                  </div>
+                  <div class="box">
+                     <p>adulto <span>*</span></p>
+                     <select name="adults" class="input" required>
+                        <option value="1">1 adulto</option>
+                        <option value="2">2 adultos</option>
+                        <option value="3">3 adultos</option>
+                        <option value="4">4 adultos</option>
+                        <option value="5">5 adultos</option>
+                        <option value="6">6 adultos</option>
+                     </select>
+                  </div>
+                  <div class="box">
+                     <p>crianca <span>*</span></p>
+                     <select name="childs" class="input" required>
+                        <option value="-">0 child</option>
+                        <option value="1">1 child</option>
+                        <option value="2">2 childs</option>
+                        <option value="3">3 childs</option>
+                        <option value="4">4 childs</option>
+                        <option value="5">5 childs</option>
+                        <option value="6">6 childs</option>
+                     </select>
+                  </div>
+                  <div class="box">
+                     <p>quarto <span>*</span></p>
+                     <select name="rooms" class="input" required>
+                        <option value="1">1 quarto</option>
+                        <option value="2">2 quartos</option>
+                        <option value="3">3 quartos</option>
+                        <option value="4">4 quartos</option>
+                        <option value="5">5 quartos</option>
+                        <option value="6">6 quartos</option>
+                     </select>
+                  </div>
+               </div>
+               <input type="submit" value="Fazer uma rezerva" name="check" class="btn btn-btn">
+            </form>
+         </section>
+         <section class="galeria" id="galeria">
+            <h3>galeria</h3>
+            <div class="galeria-fotos">
+               <div class="swiper-wrapper">
+                  <img src="images/gallery-img-1.jpg" class="swiper-slide" alt="">
+                  <img src="images/gallery-img-2.webp" class="swiper-slide" alt="">
+                  <img src="images/gallery-img-3.webp" class="swiper-slide" alt="">
+                  <img src="images/gallery-img-4.webp" class="swiper-slide" alt="">
+                  <img src="images/gallery-img-5.webp" class="swiper-slide" alt="">
+                  <img src="images/gallery-img-6.webp" class="swiper-slide" alt="">
+               </div>
+               
+            </div>
+         </section>
+        
+       
+      </main>
+
+
+      <footer>
+         <section class="contactos" id="contactos">
+            <div class="box-container">
+
+               <div class="box tel none">
+                  <a href="tel:1234567890"> +244-943-243-519</a>
+                  <br>
+                  <a href="tel:1112223333">+244-921-807-027</a>
+               </div>
+         
+               <div class="box none">
+                  <a href="#home">home</a>
+                  <br>
+                  <a href="#about">sobre</a>
+                  <br>
+                  <a href="#rezerva">rezerva</a>
+                  <br>
+                  <a href="#galeria">galeria</a>
+                  <br>
+                  <a href="#contactos">contactos</a>
+                
+               </div>
+         
+               <div class="box">
+                  <a href="#">facebook</a>
+                  <br>
+                  <a href="#">twitter</a>
+                  <br>
+                  <a href="#">instagram</a>
+                  <br>
+                  <a href="#">linkedin</a>
+                  
+               </div>
+         
+            </div>
+         
+            
+         </section>
+      </footer>
+
+
+
+      <script>
+         let menu = document.querySelector('.segundo-filho')
+         function show(){
+            menu.classList.toggle('shwo-menu')
+            console.log('olá, mundo!')
+            menu.classList.remove('segundo-filho')
+         }
+      </script>
+   </body>
+</html>
