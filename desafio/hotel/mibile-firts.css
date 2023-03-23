@@ -12,9 +12,13 @@
     header .primiro-filho #menu{
         display: block;
         margin-right: 28px;
-        height: 34px;
-        width: 36px;
+        font-size: 34px;
+        color: #b816d5;
+        cursor: pointer;
         margin-bottom: 16px;
+    }
+    header .primiro-filho #menu:hover{
+        color: rgb(166, 13, 193)
     }
     .segundo-filho{
         display: none;

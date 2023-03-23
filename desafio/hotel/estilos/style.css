@@ -33,14 +33,7 @@ header .primiro-filho .logo{
 header .primiro-filho #menu{
    display: none;
 }
-.shwo-menu{
-   width: 90%;
-   height: 200px;
-   display: flex;
-   flex-direction: column;
-   margin-bottom: 200px;
-   
-}
+
 .shwo-menu a {
    width: 90%;
    font-size: 1em;
